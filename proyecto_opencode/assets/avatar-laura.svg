@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <title>Retrato ilustrado de Laura Martínez</title>
+  <rect width="320" height="320" fill="#dff4f0"/>
+  <circle cx="160" cy="164" r="118" fill="#c2e9e2"/>
+  <path d="M44 320c0-64 52-116 116-116s116 52 116 116z" fill="#14b8a6"/>
+  <rect x="142" y="176" width="36" height="48" rx="14" fill="#e8b48c"/>
+  <path d="M92 146c0-52 30-88 68-88s68 36 68 88c0 44-12 74-30 90H122c-18-16-30-46-30-90z" fill="#332e42"/>
+  <ellipse cx="160" cy="148" rx="56" ry="66" fill="#f3c7a5"/>
+  <path d="M104 136c0-46 25-74 56-74s56 28 56 74c-14-22-34-32-56-32s-42 10-56 32z" fill="#332e42"/>
+  <path d="M130 132c6-5 14-5 20 0M170 132c6-5 14-5 20 0" fill="none" stroke="#332e42" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="140" cy="148" rx="5" ry="6" fill="#332e42"/>
+  <ellipse cx="180" cy="148" rx="5" ry="6" fill="#332e42"/>
+  <circle cx="126" cy="164" r="7" fill="#eaa98f" opacity="0.6"/>
+  <circle cx="194" cy="164" r="7" fill="#eaa98f" opacity="0.6"/>
+  <path d="M144 176c8 10 24 10 32 0" fill="none" stroke="#a95648" stroke-width="5" stroke-linecap="round"/>
+  <path d="M140 204l20 22 20-22-12-6h-16z" fill="#ffffff"/>
+</svg>

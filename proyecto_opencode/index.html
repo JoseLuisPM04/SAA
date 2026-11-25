@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Colegio San Ejemplo - Formación integral para Infantil, Primaria y Secundaria.">
+  <title>Colegio San Ejemplo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#inicio">Colegio San Ejemplo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programas">Programas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="inicio" class="hero text-white py-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <p class="text-uppercase fw-semibold small text-info mb-2">Formación integral desde Infantil hasta Secundaria</p>
+            <h1 class="display-4 fw-bold mb-3">Educamos para el futuro, con valores y cercanía</h1>
+            <p class="lead mb-4 text-white-50">En el Colegio San Ejemplo acompañamos a cada alumno en su desarrollo académico y personal, en un entorno seguro, moderno y participativo.</p>
+            <a href="#contacto" class="btn btn-info btn-lg text-dark fw-semibold">Solicitar información</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="py-5 bg-body-tertiary">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Sobre nosotros</h2>
+          <p class="lead text-body-secondary mx-auto" style="max-width: 720px;">Somos un colegio comprometido con una educación de calidad, que combina rigor académico, atención personalizada y convivencia. Nuestra misión es formar personas responsables, curiosas y preparadas para los retos del mañana.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm text-center p-3">
+              <div class="card-body">
+                <div class="fs-1 mb-2" aria-hidden="true">📘</div>
+                <h3 class="h5 card-title text-primary">Formación integral</h3>
+                <p class="card-text text-body-secondary">Potenciamos el conocimiento, las habilidades y los valores para un desarrollo equilibrado.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm text-center p-3">
+              <div class="card-body">
+                <div class="fs-1 mb-2" aria-hidden="true">👩‍🏫</div>
+                <h3 class="h5 card-title text-primary">Equipo docente cercano</h3>
+                <p class="card-text text-body-secondary">Profesionales cualificados que acompañan y orientan a cada estudiante de forma individualizada.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm text-center p-3">
+              <div class="card-body">
+                <div class="fs-1 mb-2" aria-hidden="true">🏫</div>
+                <h3 class="h5 card-title text-primary">Entorno seguro y moderno</h3>
+                <p class="card-text text-body-secondary">Instalaciones preparadas para aprender, convivir y crecer en un ambiente positivo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo" class="py-5 bg-body-tertiary">
+      <div class="container py-4">
+        <header class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Conoce a nuestro equipo</h2>
+          <p class="lead text-body-secondary mx-auto w-75">El acompañamiento cercano de nuestros docentes es parte esencial de la experiencia de cada alumno.</p>
+        </header>
+
+        <article class="profile-card mx-auto" aria-labelledby="perfil-nombre">
+          <header class="profile-card__cabecera">
+            <figure class="profile-card__avatar">
+              <img src="assets/avatar-laura.svg" alt="Retrato ilustrado de Laura Martínez, docente de Educación Primaria" width="320" height="320">
+            </figure>
+            <h3 class="h3 mb-1" id="perfil-nombre">Laura Martínez</h3>
+            <p class="fs-5 fw-semibold mb-0">Docente de Educación Primaria</p>
+          </header>
+
+          <div class="profile-card__cuerpo">
+            <p class="text-body-secondary mb-0">Me apasiona acompañar a los alumnos en sus primeros grandes aprendizajes, combinando rigor, cercanía y juego para que cada niño descubra su potencial.</p>
+
+            <ul class="profile-card__datos">
+              <li><strong>12</strong><span>Años de experiencia</span></li>
+              <li><strong>240</strong><span>Alumnos acompañados</span></li>
+              <li><strong>4</strong><span>Proyectos activos</span></li>
+            </ul>
+          </div>
+
+          <footer class="profile-card__pie">
+            <a class="btn btn-primary" href="mailto:laura.martinez@colegiosanejemplo.edu">Escribir a Laura</a>
+            <a class="btn btn-outline-primary" href="#contacto">Ver contacto</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <section id="programas" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Oferta educativa</h2>
+          <p class="lead text-body-secondary mx-auto" style="max-width: 720px;">Ofrecemos las etapas educativas necesarias para acompañar a tu hijo o hija en cada paso de su aprendizaje.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 card-title text-primary">Educación Infantil</h3>
+                <p class="card-text text-body-secondary">Primeros aprendizajes a través del juego, la exploración y el cuidado emocional en un entorno acogedor.</p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <small class="text-body-secondary"><strong>Edad:</strong> 3 a 5 años · <strong>Modalidad:</strong> Presencial</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 card-title text-primary">Educación Primaria</h3>
+                <p class="card-text text-body-secondary">Base sólida en competencias fundamentales, fomentando la curiosidad, la autonomía y el trabajo en equipo.</p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <small class="text-body-secondary"><strong>Edad:</strong> 6 a 11 años · <strong>Modalidad:</strong> Presencial</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 card-title text-primary">Educación Secundaria</h3>
+                <p class="card-text text-body-secondary">Preparación académica y personal para Bachillerato, Formación Profesional y los desafíos futuros.</p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <small class="text-body-secondary"><strong>Edad:</strong> 12 a 16 años · <strong>Modalidad:</strong> Presencial</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="py-5 bg-body-tertiary">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Contacto y ubicación</h2>
+          <p class="lead text-body-secondary mx-auto" style="max-width: 720px;">¿Quieres más información o concertar una visita? Estamos encantados de atenderte.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="h5 card-title text-primary mb-3">Datos de contacto</h3>
+                <ul class="list-group list-group-flush mb-3">
+                  <li class="list-group-item bg-transparent px-0"><strong>Dirección:</strong> Calle Ejemplo 123, Ciudad Ejemplo</li>
+                  <li class="list-group-item bg-transparent px-0"><strong>Teléfono:</strong> <a href="tel:+34900000000">+34 900 000 000</a></li>
+                  <li class="list-group-item bg-transparent px-0"><strong>Correo:</strong> <a href="mailto:info@colegiosanejemplo.edu">info@colegiosanejemplo.edu</a></li>
+                  <li class="list-group-item bg-transparent px-0"><strong>Horario:</strong> Lunes a viernes, 8:00–17:00</li>
+                </ul>
+                <a href="mailto:info@colegiosanejemplo.edu" class="btn btn-primary">Escribir un correo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="h5 card-title text-primary mb-3">Ubicación</h3>
+                <p class="text-body-secondary mb-2">Nos encontrarás en:</p>
+                <p class="fs-5 mb-3"><strong>Colegio San Ejemplo</strong><br>Calle Ejemplo 123<br>Ciudad Ejemplo</p>
+                <p class="text-body-secondary mb-0">Visítanos en nuestro horario de atención o contacta con nosotros para programar una cita.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary text-white text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Colegio San Ejemplo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
